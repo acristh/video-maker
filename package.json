@@ -4,6 +4,7 @@
   "description": "Robô de criação e postagem de videos no YouTube",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,9 +12,12 @@
     "url": "git+https://github.com/acristh/video-maker.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/acristh/video-maker/issues"
   },
-  "homepage": "https://github.com/acristh/video-maker#readme"
+  "homepage": "https://github.com/acristh/video-maker#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  }
 }
